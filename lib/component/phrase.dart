@@ -19,6 +19,7 @@ class Phrase extends StatelessWidget {
         children: [
           Container(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
