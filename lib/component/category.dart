@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Category extends StatelessWidget {
   Category(
-      {required this.text,
+      {super.key, required this.text,
       required this.color,
       required this.onClick,
       required this.image});
@@ -27,7 +27,7 @@ class Category extends StatelessWidget {
             child: Text(
           text!,
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 35, color: color,backgroundColor: Colors.yellow[300]),
+              fontWeight: FontWeight.bold, fontSize: 39, color: color),
         )),
       ),
     );

@@ -53,8 +53,9 @@ class FamilyScreen extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-        title: Text("Family Members"),
-        backgroundColor: Colors.indigo,
+          centerTitle: true,
+        title: Text("Family Members",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.black,
         ),
       body: Padding(
         padding: const EdgeInsets.only(top: 10),

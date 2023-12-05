@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:learn_language/screens/splashScreen.dart';
 
 void main(){
+
   runApp(LearnJapanees());
 }
 

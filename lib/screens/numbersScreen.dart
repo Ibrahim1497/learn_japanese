@@ -62,8 +62,9 @@ class NumberScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: Text("Numbers "),
-        backgroundColor: Colors.indigo,
+        centerTitle: true,
+        title: Text("Numbers ",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.black,
       ),
       body: Padding(
         padding: const EdgeInsets.only(top: 10),

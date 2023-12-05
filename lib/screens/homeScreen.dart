@@ -13,12 +13,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey[100],
         appBar: AppBar(
-          backgroundColor: Colors.indigo,
+          centerTitle: true,
+          backgroundColor: Colors.black,
           title: Text(
-            "Toku",
-            style: TextStyle(
-              fontSize: 20,
-            ),
+            "Toku",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),
           ),
         ),
         body: Padding(

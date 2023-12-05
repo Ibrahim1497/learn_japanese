@@ -39,8 +39,9 @@ class PhrasesScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: Text("Phrases"),
-        backgroundColor: Colors.indigo,
+        centerTitle: true,
+        title: Text("Phrases",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),),
+        backgroundColor: Colors.black,
       ),
       body: Padding(
         padding: const EdgeInsets.only(top: 1),

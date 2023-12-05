@@ -24,7 +24,9 @@ class Phrase extends StatelessWidget {
             children: [
               Text(
                 phrase.jpName,
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 21),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                overflow: TextOverflow.ellipsis,
+                maxLines: 1,
               ),
               SizedBox(
                 height: 10,
