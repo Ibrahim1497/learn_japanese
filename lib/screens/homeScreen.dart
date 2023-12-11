@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.black,
           title: Text(
-            "Toku",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),
+            "Toku",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w900),
           ),
         ),
         body: Padding(
