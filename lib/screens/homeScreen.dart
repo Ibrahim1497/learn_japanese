@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
                   Category(
                     image: "assets/image/Numbers.png",
                     text: "Numbers",
-                    color: Color(0xFFffffff),
+                    color: Color(0xff002156),
                     onClick: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => NumberScreen()));

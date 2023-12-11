@@ -21,14 +21,14 @@ class Category extends StatelessWidget {
         width: size.width * 0.41,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(25),
-          image: DecorationImage(image: AssetImage(image!), fit: BoxFit.fill),
+          image: DecorationImage(image: AssetImage(image!), fit: BoxFit.cover),
         ),
         child: Center(
             child: Text(
-          text!,
+          text!,textAlign: TextAlign.center,
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 39, color: color),
-        )),
+              fontWeight: FontWeight.w900, fontSize: 39, color: color,backgroundColor: Colors.yellow),
+        ),),
       ),
     );
   }
